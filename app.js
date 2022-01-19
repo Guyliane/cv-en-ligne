@@ -6,7 +6,7 @@ const btn = document.querySelector('.btn1');
 const imgProfil = document.querySelector('.imgProfil');
 const textAccueil = document.querySelector('.text-accueil');
 
-gsap.from(imgProfil, {x: 500, duration:1.5, ease : 'bounce'});
+gsap.from(imgProfil, {y: 500, duration:1.5, ease : 'bounce'});
 gsap.from(textAccueil, {x: -500, duration:1.5, ease : 'bounce'});
 gsap.from(menu, {opacity:0, duration:1.5, delay:2});
 
